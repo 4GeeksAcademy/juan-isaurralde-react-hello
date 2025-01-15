@@ -1,4 +1,5 @@
 import React from "react"; // 1 - Importar React
+import { ButtonCallToAction } from "./ButtonCallToAction";
 // 2 - Crear el Componente
 const Navbar = () =>{
     // 3 - Code js
@@ -24,6 +25,9 @@ return(
         </li>
         <li className="nav-item">
           <a className="nav-link disabled" aria-disabled="true">Disabled</a>
+        </li>
+        <li className="nav-item">
+          <ButtonCallToAction/>
         </li>
       </ul>
     </div>
